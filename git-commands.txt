@@ -1,0 +1,18 @@
+     git config --global user.name "sureshnory"
+     git config --global user.email "sureshnory@yahoo.com"
+     git config --global --list
+     git config --global --edit
+
+git add . or git add -A  send files to stage
+
+git rm --cached aaaaa  unstage
+
+git commit -m "first commit"
+
+git reset HEAD nnnnnn  to unstage
+
+git log
+
+git diff - works on modifications at staging level
+
+ git diff HEAD  - shows difference between Staging and remote repository
